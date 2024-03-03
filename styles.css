@@ -1,1 +1,67 @@
 /* Write your CSS here! */
+
+/* Center the main content */
+header {
+    display: flex; /*This property sets the display type of the header to a flex container.
+    By using flex properties, we can control the layout of child elements within the header.*/
+    flex-direction: column; /*Specifies the direction of the flex container’s main axis.
+    In this case, it arranges child elements vertically (in a column).*/
+    align-items: center; /*Aligns the child elements horizontally along the cross-axis (perpendicular to the main axis).
+    It centers the child elements horizontally within the header.*/
+    justify-content: center; /*Aligns the child elements vertically along the main axis.
+    It centers the child elements vertically within the header.*/
+    text-align: center; /*Sets the horizontal alignment of the text content within the header.
+    It centers the text content (such as headings) horizontally.*/
+    background-color: #f9f9f9; /*Sets the background color of the header to a light gray.*/
+    padding: 20px; /*Adds 20 pixels of padding to all sides of the header.
+    This creates spacing between the content and the edges of the header.*/
+    border-radius: 10px; /*Rounds the corners of the header, creating a slightly curved appearance.
+    A border-radius value of 10px gives a subtle rounded effect.
+    */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*Adds a shadow effect to the header.
+    The shadow is positioned 0 pixels horizontally, 2 pixels vertically, with a blur radius of 4 pixels.
+    The shadow color is a transparent black (rgba(0, 0, 0, 0.1)).*/
+}
+
+img {
+    max-width: 200px; /* Set a maximum width for the image */
+    float: left; /* Float the image to the left */
+    /*margin-right: 50px; /* Add some spacing between the image and other content */
+    margin-left: 0;
+}
+
+/* Element selector */
+body {
+    margin: 8px;
+    display:block;
+}
+
+h3 {
+background-color: lightblue;
+}
+
+/* ID selector */
+article {
+    color: darkblue;
+    font-size: 18px;
+}
+
+/* Class selector */
+/* p {
+    font-style: italic;
+    padding: 10px;
+    background-color: lightgray;
+} */
+
+div {
+    text-align: center;
+}
+
+h1{
+    font-size: xxx-large;
+}
+
+.gray-text {
+    background-color: lightgray;
+    /* Add any other styling for the gray-text class here */
+}
